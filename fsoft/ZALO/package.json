@@ -1,0 +1,12 @@
+{
+  "name": "zalo_example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "private": "true",
+  "dependencies": {
+	"express": "*",
+	"socket.io": "*",
+	"socketio-file-upload": "^0.4.4"
+  }
+}

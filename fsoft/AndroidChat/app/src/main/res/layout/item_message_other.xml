@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/spacing"
+    android:id="@+id/container_message">
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1:01"
+        android:textSize="13sp"
+        android:textStyle="italic"/>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.example.duyti.testfpt.Widget.CustomAvatar
+            android:id="@+id/iv_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"/>
+
+        <LinearLayout
+            android:id="@+id/type_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/out_message_bg"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/username"
+                android:text="tiendd_58"
+                android:layout_gravity="right"
+                android:textStyle="italic"
+                android:layout_marginBottom="10dp"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/message"
+                style="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/spacing"
+                android:paddingRight="@dimen/spacing"
+                android:textSize="15sp"
+                android:text="xin chao"
+                android:textColor="?android:textColorPrimary" />
+
+        </LinearLayout>
+    </TableRow>
+
+</LinearLayout>

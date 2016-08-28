@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TestFPT</string>
+    <string name="prompt_message">Viết tin nhắn...</string>
+    <string name="user_action_typing">is typing</string>
+    <string name="input_message">Viết tin nhắn...</string>
+</resources>
